@@ -4,15 +4,21 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Create Copydeck",
+      "identifier": "create_copydeck_identifier",
+      "script": "./create_copydeck.js"
+    },
+    {
+      "name": "Read Copydeck",
+      "identifier": "read_copydeck_identifier",
+      "script": "./read_copydeck.js"
     }
   ],
   "menu": {
-    "title": "copydeck",
+    "title": "Copydeck",
     "items": [
-      "my-command-identifier"
+      "create_copydeck_identifier",
+      "read_copydeck_identifier"
     ]
   }
 }
